@@ -24,7 +24,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # branch: "npm-audit-fix-action/fix"
-          # default_branch: "master"
+          # default_branch: "$default-branch"
           # commit_title: "build(deps): npm audit fix"
         # or
         # env:
